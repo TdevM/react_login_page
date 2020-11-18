@@ -11,10 +11,10 @@ import Link from "@material-ui/core/Link";
 const initialValues = {email: '', password: ''}
 
 const validationSchema = Yup.object().shape({
-    email: Yup.string().email().required('Email is required'),
+    email: Yup.string().email('Must be a valid email').required('Email is required'),
     password: Yup.string()
-        .min(8, 'Password must be at least 8 characters long')
-        .required('Password is required'),
+        .min(8, 'Password is too short - should be 8 chars minimum.')
+        .required('Password is required')
 });
 
 class LoginForm extends React.Component {
@@ -54,6 +54,8 @@ class LoginForm extends React.Component {
                                 id="email"
                                 label="Email Address"
                                 name="email"
+                                helperText={errors.email}
+                                error={(errors.email === 'true')}
                                 value={values.email}
                                 onChange={handleChange}
                                 onBlur={handleBlur}
@@ -66,6 +68,8 @@ class LoginForm extends React.Component {
                                 required
                                 fullWidth
                                 name="password"
+                                helperText={errors.password}
+                                error={(errors.password === 'true')}
                                 label="Password"
                                 onChange={handleChange}
                                 onBlur={handleBlur}
