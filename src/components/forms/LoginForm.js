@@ -27,7 +27,9 @@ class LoginForm extends React.Component {
     onSubmit(values, actions) {
         controller.login(values.email, values.password)
             .then((response) => {
-                console.log('response', response)
+                actions.setErrors({
+                    password: 'Login Successful',
+                })
             }).catch((error) => {
             if (error.response.status === 404) {
                 actions.setErrors({

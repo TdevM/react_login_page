@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddbb657c-d0e0-414b-8187-d45df826f091" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/forms/ResetPasswordForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ResetPasswordPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ResetPasswordPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/Auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/forms/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/forms/LoginForm.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
       <workItem from="1605688447957" duration="4489000" />
       <workItem from="1605769114689" duration="1248000" />
       <workItem from="1605770512009" duration="2038000" />
-      <workItem from="1605857179586" duration="7515000" />
+      <workItem from="1605857179586" duration="8164000" />
     </task>
     <servers />
   </component>
