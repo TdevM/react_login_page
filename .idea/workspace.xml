@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddbb657c-d0e0-414b-8187-d45df826f091" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ForgotPasswordPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ResetPasswordPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/forms/ForgotPasswordForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ForgotPasswordPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ForgotPasswordPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/Auth.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
       <workItem from="1605688447957" duration="4489000" />
       <workItem from="1605769114689" duration="1248000" />
       <workItem from="1605770512009" duration="2038000" />
-      <workItem from="1605857179586" duration="2856000" />
+      <workItem from="1605857179586" duration="4365000" />
     </task>
     <servers />
   </component>
@@ -74,5 +75,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1605688799432" />
+    <state x="305" y="124" key="search.everywhere.popup" timestamp="1605862590445">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1605862590445" />
   </component>
 </project>
