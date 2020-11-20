@@ -9,4 +9,8 @@ const forgotPassword = (email) => {
     return axios.post('/auth/forgotPassword', {email})
 }
 
-export {login, forgotPassword}
+const resetPassword = (userId, token, newPassword) => {
+    return axios.patch('/auth/resetPassword', {userId, token, password: newPassword})
+}
+
+export {login, forgotPassword, resetPassword}
