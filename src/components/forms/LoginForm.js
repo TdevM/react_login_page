@@ -5,6 +5,7 @@ import TextField from "@material-ui/core/TextField";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Checkbox from "@material-ui/core/Checkbox";
 import Button from "@material-ui/core/Button";
+import * as controller from '../../controllers/Auth'
 import Grid from "@material-ui/core/Grid";
 import Link from "@material-ui/core/Link";
 
@@ -23,8 +24,21 @@ class LoginForm extends React.Component {
     }
 
 
-    onSubmit() {
-
+    onSubmit(values, actions) {
+        controller.login(values.email, values.password)
+            .then((response) => {
+                console.log('response', response)
+            }).catch((error) => {
+            if (error.response.status === 404) {
+                actions.setErrors({
+                    email: error.response.data.message,
+                });
+            } else if (error.response.status === 400) {
+                actions.setErrors({
+                    password: error.response.data.message,
+                });
+            }
+        })
     }
 
     render() {
@@ -45,7 +59,7 @@ class LoginForm extends React.Component {
                           isSubmitting,
                           /* and other goodies */
                       }) => (
-                        <form className={this.props.formStyle} noValidate>
+                        <form className={this.props.formStyle} onSubmit={handleSubmit}>
                             <TextField
                                 variant="outlined"
                                 margin="normal"
