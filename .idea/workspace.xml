@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddbb657c-d0e0-414b-8187-d45df826f091" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-    </list>
+    <list default="true" id="ddbb657c-d0e0-414b-8187-d45df826f091" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +56,7 @@
       <workItem from="1605688447957" duration="4489000" />
       <workItem from="1605769114689" duration="1248000" />
       <workItem from="1605770512009" duration="2038000" />
-      <workItem from="1605857179586" duration="9532000" />
+      <workItem from="1605857179586" duration="9754000" />
     </task>
     <servers />
   </component>
@@ -67,6 +64,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="366" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605885134342">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="366" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1605885134342" />
     <state x="149" y="39" key="SettingsEditor" timestamp="1605688799432">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
